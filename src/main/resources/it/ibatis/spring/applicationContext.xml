@@ -18,7 +18,7 @@
     <!-- middleware datasource  -->
     <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close"
           p:driverClassName="com.mysql.jdbc.Driver" p:url="jdbc:mysql://localhost:3306/cyclingdb"
-          p:username="root" p:password="mysql1986"
+          p:username="root" p:password=""
           p:initialSize="2"
           p:maxActive="30"
           p:maxIdle="10"
